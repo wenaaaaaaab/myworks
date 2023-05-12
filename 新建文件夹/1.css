@@ -1,0 +1,84 @@
+.a1 {
+				background-size: 100%;
+			}
+
+			.a2 {
+
+				width: 200px;
+				margin-left: 20px;
+			}
+
+			.a3 {
+				margin-left: 50%;
+				margin-top: 210px;
+				text-indent: 40px;
+				height: 40px;
+				width: 700px;
+				border-radius: 20px;
+			}
+			.a4{
+				position: absolute;
+				margin-top: 220px;
+				margin-left: 160px;
+			}
+.a5{
+	height: 30px;
+	width: 100px;
+	margin-left: 450px;
+	margin-top: 10px;
+}
+			* {
+				margin: 0;
+				padding: 0
+			}
+
+			#div1 {
+				position: absolute;
+				width: 300px;
+				height: 40px;
+				margin-top: 20px;
+			}
+
+			ul {
+				list-style: none
+					/*让前面的点不显示*/
+				;
+			}
+
+			a {
+				text-decoration: none
+					/*让下划线不显示*/
+				;
+				display: block;
+				width: 100px;
+				height: 40ox;
+			}
+
+			#abcd li {
+				float: left
+					/* 设置浮动 */
+				;
+				width: 100px;
+				height: 40px;
+				text-align: center
+					/*左右居中*/
+				;
+				line-height: 40px
+					/*垂直居中*/
+				;
+			}
+
+			#abcd li ul {
+				display: none;
+			}
+
+			#abcd>li:hover ul {
+				display: block;
+
+			}
+
+			#abcd li ul li {
+				background-color: azure;
+				margin-bottom: 1px;
+			}
+		
